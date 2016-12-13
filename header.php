@@ -27,6 +27,7 @@
 <link href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/jquery.bxslider.css" rel="stylesheet">
 <link href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/magnific-popup.css" rel="stylesheet">
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,24 +51,24 @@
 							<a href="<?php echo esc_html(home_url("/"));?>" title="Clinica da Cidade" ><img src="<?php bloginfo("stylesheet_directory"); ?>/assets/images/logo/logo-clinica-da-cidade.png" alt="Clinica da Cidade"></a>
 						</div>
 					</div>
-						<div id="mobile_nav" class="col-sm-8">
-							<?php 
-								// Set de args for the main menu
-								$main_menu_args = array(
-									"theme_location"  => "header",
-									"menu_class"      => "menu-links clearfix"
-								);
-								// Call main menu function
-								wp_nav_menu($main_menu_args);
-							?>
+					<div id="mobile_nav" class="col-sm-8">
+						<?php 
+							// Set de args for the main menu
+							$main_menu_args = array(
+								"theme_location"  => "header",
+								"menu_class"      => "menu-links clearfix"
+							);
+							// Call main menu function
+							wp_nav_menu($main_menu_args);
+						?>
+					</div>
+					<div class="col-sm-12 mobile-btn-box">
+						<div class="mobile-dropdown-btn">
+							<i class="ion-ios-arrow-down"></i>
 						</div>
-    <div class="col-sm-12 mobile-btn-box">
-      <div class="mobile-dropdown-btn">
-        <i class="ion-ios-arrow-down"></i>
-      </div>
-    </div>
-	        
-	      </div>
-	    </nav>
-	  </div>
+					</div>
+					
+				</div>
+			</nav>
+		</div>
 	</header>
