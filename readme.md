@@ -28,6 +28,12 @@ Tema desenvolvido para ser utilizado no WordPress. Trata-se de um site instituci
 
 ## Versions
 
+### 1.3.8 - 30/03/2017
+* Changed home banner im mobile devices
+
+<br>
+<br>
+
 ### 1.3.7 - 13/12/2016
 * Added support for reCAPTCHA
 

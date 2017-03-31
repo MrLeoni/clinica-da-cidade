@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Agência Delucca
 Author URI: http://www.agenciadelucca.com.br
 Description: Description
-Version: 1.3.7
+Version: 1.3.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: clinica-da-cidade
@@ -1837,6 +1837,9 @@ textarea.custom-input:focus {
 	.banner-content-box {
 		top: 260px;
 		left: 135px;
+		-webkit-transform: none;
+		transform: none;
+    text-align: left;
 	}
 	
 }
@@ -1891,7 +1894,12 @@ textarea.custom-input:focus {
 	/* Partials - Banner */
 	
 	.banner-content-box {
-		display: none;
+		width: 100%;
+		top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
 	}
 	
 	/* About */
@@ -1971,7 +1979,7 @@ textarea.custom-input:focus {
 	}
 	
 	.logo-box {
-		margin: 20px 0;
+		margin: 0;
 	}
 	
 	.logo-box img {
@@ -2012,7 +2020,7 @@ textarea.custom-input:focus {
 		text-align: center;
 		color: #fff;
 		background-color: #08d4e4;
-		font-size: 2em;
+		font-size: 1.6em;
 		box-shadow: 1px 3px 2px rgba(0,0,0,0.2);
 	}
 	
@@ -2098,7 +2106,7 @@ textarea.custom-input:focus {
 	/* Partials - Banner */
 	
 	#banner {
-		margin: 20% 0 0;
+		margin: 8% 0 0;
 	}
 	
 	/* Home Page */
@@ -2197,6 +2205,16 @@ textarea.custom-input:focus {
 	}
 	
 	/* Partials - Banner */
+	
+	#banner {
+		margin: 23% 0 0;
+	}
+	
+	.banner-content-box {
+    font-size: 0.8em;
+    width: 100%;
+    top: 40%;
+	}
 	
 	#banner .bx-wrapper .bx-pager,
 	#banner .bx-wrapper .bx-controls-auto {
